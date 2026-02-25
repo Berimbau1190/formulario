@@ -52,44 +52,28 @@
         
     </fieldset> -->
 
+        <fieldset>
+          <legend>Perfil</legend>
+          <p>Gênero:</p>
+          <input type="radio" name="userGender" value="Feminino" />
+          <label for="userGender">Feminino</label>
 
-    <fieldset>
-        <legend>Perfil</legend>
-<p>Gênero:</p>
-        <input type="radio" name="userGender" value="Feminino">
-        <label for="userGender">Feminino</label>
+          <input type="radio" name="userGender" value="Masculino" />
+          <label for="userGender">Masculino</label>
 
-        <input type="radio" name="userGender" value="Masculino">
-        <label for="userGender">Masculino</label>
+          <input type="radio" name="userGender" value="notinformed" />
+          <label for="userGender">Prefiro não informar</label>
+          <br />
 
-        <input type="radio" name="userGender" value="notinformed">
-        <label for="userGender">Prefiro não informar</label>
-    </fieldset>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          <label for="marialStatus">Estado civil</label>
+          <select name="maritalStatus" id="">
+            <option value="notInformed">Selecione...</option>
+            <option value="casado">casado</option>
+            <option value="solteiro">solteiro</option>
+            <option value="divorciado">divorciado</option>
+            <option value="uniao_estavel">União Estável</option>
+          </select>
+        </fieldset>
 
         <button type="submit">Enviar</button>
       </form>
